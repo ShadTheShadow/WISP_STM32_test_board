@@ -2228,21 +2228,20 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Interface_UART:MAX3072E"
+		(symbol "Interface_UART:MAX485E"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at -7.62 13.97 0)
+				(at -6.985 13.97 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "MAX3072E"
-				(at 2.54 13.97 0)
+			(property "Value" "MAX485E"
+				(at 1.905 13.97 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2251,16 +2250,24 @@
 				)
 			)
 			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-				(at 26.67 -8.89 0)
+				(at 0 -22.86 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(italic yes)
 					)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://datasheets.maximintegrated.com/en/ds/MAX3070E-MAX3079E.pdf"
+			(property "Datasheet" "https://datasheets.maximintegrated.com/en/ds/MAX1487E-MAX491E.pdf"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Half duplex RS-485/RS-422, 2.5 Mbps, ±15kV electro-static discharge (ESD) protection, no slew-rate, no low-power shutdown, with receiver/driver enable, 32 receiver drive capability, DIP-8 and SOIC-8"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2269,7 +2276,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "+3.3V, ±15kV ESD-Protected, Fail-Safe, Hot-Swap, RS-485/RS-422 Transceivers, SOIC-8"
+			(property "ki_keywords" "transceiver"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2278,7 +2285,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "Low Power Half-Duplex RS-485 RS-422 Transceiver"
+			(property "ki_fp_filters" "DIP*W7.62mm* SOIC*3.9x4.9mm*P1.27mm*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2287,16 +2294,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MAX3072E_0_1"
+			(symbol "MAX485E_0_1"
 				(rectangle
 					(start -7.62 12.7)
 					(end 7.62 -12.7)
@@ -2463,7 +2461,7 @@
 					)
 				)
 			)
-			(symbol "MAX3072E_1_1"
+			(symbol "MAX485E_1_1"
 				(circle
 					(center -0.762 2.54)
 					(radius 0.508)
@@ -5147,12 +5145,6 @@
 		(uuid "0ce7dcac-d853-4b25-87da-b167bacb04bc")
 	)
 	(junction
-		(at 243.84 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0fe8bb7f-0297-43eb-a2b8-edb3ad44d4a0")
-	)
-	(junction
 		(at 233.68 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5181,6 +5173,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2e61877a-3298-4772-bdcd-dbeb00f17363")
+	)
+	(junction
+		(at 180.34 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2f9e3a4a-ee5e-4191-97f6-92438c3ef4b3")
 	)
 	(junction
 		(at 172.72 38.1)
@@ -5237,6 +5235,12 @@
 		(uuid "99aa4562-56e2-46e9-9fe9-03aeb8656e08")
 	)
 	(junction
+		(at 243.84 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a2579269-cc75-4e50-88c4-3a0b27ba7170")
+	)
+	(junction
 		(at 53.34 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5283,12 +5287,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d38e4ca5-3232-4ad4-b104-cffe5cfc1ebc")
-	)
-	(junction
-		(at 180.34 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d9e735c6-b788-43f6-ac52-dddaa7b0a767")
 	)
 	(junction
 		(at 172.72 35.56)
@@ -8017,95 +8015,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Interface_UART:MAX3072E")
-		(at 180.34 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3713a509-8363-4c21-b6a9-6623c42db57b")
-		(property "Reference" "U2"
-			(at 182.4833 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MAX3072E"
-			(at 182.4833 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 207.01 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheets.maximintegrated.com/en/ds/MAX3070E-MAX3079E.pdf"
-			(at 180.34 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "+3.3V, ±15kV ESD-Protected, Fail-Safe, Hot-Swap, RS-485/RS-422 Transceivers, SOIC-8"
-			(at 180.34 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "d0143a25-5195-4961-90c6-6eab2f6457d9")
-		)
-		(pin "4"
-			(uuid "ec37172e-cde2-4120-b7ea-8e9e914544a9")
-		)
-		(pin "2"
-			(uuid "34069937-a5af-47bd-b21b-bf5e7b9e817d")
-		)
-		(pin "1"
-			(uuid "c2ce48be-1485-4be0-9bc6-9bb023f65a48")
-		)
-		(pin "6"
-			(uuid "5fbb26d1-dc2b-442c-b38e-f622580b2671")
-		)
-		(pin "8"
-			(uuid "58ec3bba-a890-475e-8561-1ae2343f6268")
-		)
-		(pin "5"
-			(uuid "ad4fe543-5ab8-48b7-924e-01673a529dd8")
-		)
-		(pin "7"
-			(uuid "4f835372-4c23-463b-8050-1baeb3a73fe6")
-		)
-		(instances
-			(project ""
-				(path "/bbf92a7f-e2a8-4909-aabd-f6b15409995d"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x03_Socket")
 		(at 208.28 80.01 0)
 		(unit 1)
@@ -8817,6 +8726,94 @@
 			(project "WISP_STM32_test_board"
 				(path "/bbf92a7f-e2a8-4909-aabd-f6b15409995d"
 					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Interface_UART:MAX485E")
+		(at 243.84 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "613e4855-6184-4111-8e77-44c3f39091da")
+		(property "Reference" "U1"
+			(at 245.9833 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MAX485E"
+			(at 245.9833 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 243.84 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheets.maximintegrated.com/en/ds/MAX1487E-MAX491E.pdf"
+			(at 243.84 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Half duplex RS-485/RS-422, 2.5 Mbps, ±15kV electro-static discharge (ESD) protection, no slew-rate, no low-power shutdown, with receiver/driver enable, 32 receiver drive capability, DIP-8 and SOIC-8"
+			(at 243.84 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "5b4ec3cb-eda1-4f68-b3f7-0e0631bf2c11")
+		)
+		(pin "5"
+			(uuid "a9f096fa-b7ff-4e81-9359-0f695e02d357")
+		)
+		(pin "8"
+			(uuid "89edf61b-30e3-4514-9b9a-6a5d62004ffc")
+		)
+		(pin "2"
+			(uuid "01fe4d83-f630-47b4-a5d7-2160da409cbf")
+		)
+		(pin "1"
+			(uuid "7db13753-b227-4b7c-9054-ce4879ec827d")
+		)
+		(pin "3"
+			(uuid "7f895bd5-361b-40cb-9031-0f7103f02e91")
+		)
+		(pin "4"
+			(uuid "74cffd22-85c5-45a1-9fdc-8c541a01b332")
+		)
+		(pin "7"
+			(uuid "3390f68b-2f14-42b2-8e9f-a672f4a56ed6")
+		)
+		(instances
+			(project "WISP_STM32_test_board"
+				(path "/bbf92a7f-e2a8-4909-aabd-f6b15409995d"
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -9723,7 +9720,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9fa3c9b0-0c9c-48a8-a133-3fc7ec41b615")
-		(property "Reference" "U4"
+		(property "Reference" "U3"
 			(at 52.9433 184.15 0)
 			(effects
 				(font
@@ -9964,96 +9961,7 @@
 		(instances
 			(project ""
 				(path "/bbf92a7f-e2a8-4909-aabd-f6b15409995d"
-					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Interface_UART:MAX3072E")
-		(at 243.84 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9fb8cd88-9a93-4683-831a-89b05ec791a1")
-		(property "Reference" "U1"
-			(at 245.9833 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MAX3072E"
-			(at 245.9833 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 270.51 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheets.maximintegrated.com/en/ds/MAX3070E-MAX3079E.pdf"
-			(at 243.84 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "+3.3V, ±15kV ESD-Protected, Fail-Safe, Hot-Swap, RS-485/RS-422 Transceivers, SOIC-8"
-			(at 243.84 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "bf932c7c-9c29-4d3f-8a49-ab940e397394")
-		)
-		(pin "4"
-			(uuid "95305087-1913-45af-94ae-77c1fb76e7fd")
-		)
-		(pin "2"
-			(uuid "0169530e-0afd-44f1-9938-00420fc10c8b")
-		)
-		(pin "1"
-			(uuid "d0968cba-d0d6-40e6-9752-b5056226fd0d")
-		)
-		(pin "6"
-			(uuid "fcc9fd02-f870-46e1-b95d-5927d7aa5c95")
-		)
-		(pin "8"
-			(uuid "471d1d03-73bd-4599-8e42-e844cef0f2a4")
-		)
-		(pin "5"
-			(uuid "6d01f7c3-8b16-45dd-ad85-3a0352a700a7")
-		)
-		(pin "7"
-			(uuid "5b5c90ec-796c-4ae5-9fe1-4af0000a4791")
-		)
-		(instances
-			(project "WISP_STM32_test_board"
-				(path "/bbf92a7f-e2a8-4909-aabd-f6b15409995d"
-					(reference "U1")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -11827,6 +11735,94 @@
 			(project ""
 				(path "/bbf92a7f-e2a8-4909-aabd-f6b15409995d"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Interface_UART:MAX485E")
+		(at 180.34 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe4d65ba-ec05-467c-9865-26a552d7136c")
+		(property "Reference" "U2"
+			(at 182.4833 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MAX485E"
+			(at 182.4833 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 180.34 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheets.maximintegrated.com/en/ds/MAX1487E-MAX491E.pdf"
+			(at 180.34 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Half duplex RS-485/RS-422, 2.5 Mbps, ±15kV electro-static discharge (ESD) protection, no slew-rate, no low-power shutdown, with receiver/driver enable, 32 receiver drive capability, DIP-8 and SOIC-8"
+			(at 180.34 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "7b752db2-13e1-4f99-863c-b9cb357af101")
+		)
+		(pin "5"
+			(uuid "bfd63228-096e-46ba-8fd1-5f5bc0eb6030")
+		)
+		(pin "8"
+			(uuid "f23b70fc-7a8f-418c-b5c8-e9130fd72a05")
+		)
+		(pin "2"
+			(uuid "493798dd-c99b-4f8a-9bb8-2db8a2edd5cc")
+		)
+		(pin "1"
+			(uuid "9d637ca2-89b6-4abe-9a2d-03aa0774b0ca")
+		)
+		(pin "3"
+			(uuid "2cbad06c-93af-4247-81a2-d1bd6c7dffff")
+		)
+		(pin "4"
+			(uuid "1f4c9418-e6c5-4241-a332-ab822a4151de")
+		)
+		(pin "7"
+			(uuid "b1b4ad40-49cf-4fd6-9ea4-920595fe90a3")
+		)
+		(instances
+			(project "WISP_STM32_test_board"
+				(path "/bbf92a7f-e2a8-4909-aabd-f6b15409995d"
+					(reference "U2")
 					(unit 1)
 				)
 			)
