@@ -7253,6 +7253,28 @@
 				)
 			)
 		)
+		(property "Digikey Part #" "RMCF0805FT10K0CT-ND"
+			(at 99.06 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part #" ""
+			(at 99.06 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "77d5007c-3c71-4fac-9a60-b1583d3c3547")
 		)
@@ -7324,6 +7346,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 85.09 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "1276-6526-1-ND"
+			(at 85.09 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part #" ""
 			(at 85.09 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -7484,6 +7528,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 96.52 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "311-2.20KCRCT-ND"
+			(at 96.52 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part #" ""
 			(at 96.52 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -7731,6 +7797,28 @@
 				)
 			)
 		)
+		(property "Digikey Part #" ""
+			(at 138.43 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part #" ""
+			(at 138.43 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6d7e7212-d986-4363-b113-0c00f0102c80")
 		)
@@ -7812,6 +7900,28 @@
 				)
 			)
 		)
+		(property "Digikey Part #" "399-C0805C104K5RACTUCT-ND"
+			(at 173.99 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part #" ""
+			(at 173.99 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "0377ae9a-7471-4776-9d9a-86c2a6bd3743")
 		)
@@ -7882,6 +7992,28 @@
 		)
 		(property "Description" "Resistor"
 			(at 220.98 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "RMCF0805FT10K0CT-ND"
+			(at 220.98 139.7 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part #" ""
+			(at 220.98 139.7 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8127,6 +8259,28 @@
 				)
 			)
 		)
+		(property "Digikey Part #" "399-C0805C104K5RACTUCT-ND"
+			(at 237.49 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part #" ""
+			(at 237.49 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e4e657cf-f546-4d8f-b12b-7b1749d53d97")
 		)
@@ -8175,7 +8329,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Custom_Components:TestPoint_Pad_1.0x1.0mm_CUSTOM"
+		(property "Footprint" "TestPoint:CUSTOM_TestPoint_Pad_1.0x1.0mm"
 			(at 270.51 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -8198,6 +8352,28 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 265.43 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" ""
+			(at 265.43 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part #" ""
 			(at 265.43 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -8275,6 +8451,28 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 189.23 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "450-1650-ND"
+			(at 189.23 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part #" ""
 			(at 189.23 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -8602,6 +8800,28 @@
 				)
 			)
 		)
+		(property "Digikey Part #" "ED10562-ND"
+			(at 208.28 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part #" ""
+			(at 208.28 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d6bb3944-d383-4e4f-9d14-fd5964a40faf")
 		)
@@ -8841,6 +9061,28 @@
 				)
 			)
 		)
+		(property "Digikey Part #" "732-2672-ND"
+			(at 177.8 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part #" ""
+			(at 177.8 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "8"
 			(uuid "ddb1cdc6-eb94-4d48-a20c-db919d21e398")
 		)
@@ -8935,6 +9177,28 @@
 			)
 		)
 		(property "Description" "2A, 1.1MHz Buck DC/DC Converter, fixed 3.3V output voltage, TSOT-23-6"
+			(at 54.61 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" ""
+			(at 54.61 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part #" "621-AP63203WU-7"
 			(at 54.61 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -9195,6 +9459,28 @@
 				)
 			)
 		)
+		(property "Digikey Part #" "399-C0603C104K5RACTUCT-ND"
+			(at 82.55 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part #" ""
+			(at 82.55 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "78421a40-1ebe-4734-830c-d69a13f65113")
 		)
@@ -9276,6 +9562,28 @@
 				)
 			)
 		)
+		(property "Digikey Part #" "ED10562-ND"
+			(at 271.78 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part #" ""
+			(at 271.78 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7d5e7970-cf5d-44a2-9dc8-14bab8769800")
 		)
@@ -9328,7 +9636,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Custom_Components:TestPoint_Pad_1.0x1.0mm_CUSTOM"
+		(property "Footprint" "TestPoint:CUSTOM_TestPoint_Pad_1.0x1.0mm"
 			(at 270.51 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -9351,6 +9659,28 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 265.43 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" ""
+			(at 265.43 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part #" ""
 			(at 265.43 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -9430,6 +9760,28 @@
 			)
 		)
 		(property "Description" "Half duplex RS-485/RS-422, 2.5 Mbps, ±15kV electro-static discharge (ESD) protection, no slew-rate, no low-power shutdown, with receiver/driver enable, 32 receiver drive capability, DIP-8 and SOIC-8"
+			(at 243.84 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "MAX3485CSA+CT-ND"
+			(at 243.84 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part #" ""
 			(at 243.84 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -9618,6 +9970,28 @@
 				)
 			)
 		)
+		(property "Digikey Part #" "399-C0603C104K5RACTUCT-ND"
+			(at 24.13 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part #" ""
+			(at 24.13 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "711378b5-bf92-4d44-862d-c4613e55eac6")
 		)
@@ -9690,6 +10064,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 107.95 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "399-C0603C104K5RACTUCT-ND"
+			(at 107.95 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part #" ""
 			(at 107.95 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -9779,6 +10175,28 @@
 				)
 			)
 		)
+		(property "Digikey Part #" "RMCF0805FT10K0CT-ND"
+			(at 180.34 139.7 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part #" ""
+			(at 180.34 139.7 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "5696b93e-b072-4d6d-bc2a-ee37b8517b89")
 		)
@@ -9850,6 +10268,28 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 194.31 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "738-RMCF0805FT120RCT-ND"
+			(at 194.31 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part #" ""
 			(at 194.31 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -9942,6 +10382,28 @@
 				)
 			)
 		)
+		(property "Digikey Part #" ""
+			(at 162.56 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part #" ""
+			(at 162.56 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "WISP_STM32_test_board"
 				(path "/bbf92a7f-e2a8-4909-aabd-f6b15409995d"
@@ -10007,6 +10469,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 38.1 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "490-10674-1-ND"
+			(at 38.1 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part #" ""
 			(at 38.1 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -10177,6 +10661,28 @@
 				)
 			)
 		)
+		(property "Digikey Part #" "399-C0603C104K5RACTUCT-ND"
+			(at 67.31 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part #" ""
+			(at 67.31 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "9f594b43-b689-4b61-9dd5-73ab85353d77")
 		)
@@ -10247,6 +10753,28 @@
 			)
 		)
 		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 30.48 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "401-2001-ND"
+			(at 30.48 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part #" ""
 			(at 30.48 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -10359,6 +10887,28 @@
 				)
 			)
 		)
+		(property "Digikey Part #" "475-LSR976-NR-1CT-ND"
+			(at 93.98 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part #" ""
+			(at 93.98 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "15354d72-2d21-4864-977b-83500aea16d6")
 		)
@@ -10430,6 +10980,28 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 257.81 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "738-RMCF0805FT120RCT-ND"
+			(at 257.81 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part #" ""
 			(at 257.81 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -10591,6 +11163,28 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 256KB flash, 64KB RAM, 84 MHz, 1.7-3.6V, 50 GPIO, LQFP64"
+			(at 48.26 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" ""
+			(at 48.26 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part #" "511-STM32F401RCT6"
 			(at 48.26 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -10867,6 +11461,28 @@
 				)
 			)
 		)
+		(property "Digikey Part #" "311-2.20KCRCT-ND"
+			(at 90.17 110.49 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part #" ""
+			(at 90.17 110.49 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "09106e14-cfdb-4755-bb70-2c0d4e2facb0")
 		)
@@ -10949,6 +11565,28 @@
 				)
 			)
 		)
+		(property "Digikey Part #" ""
+			(at 229.87 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part #" ""
+			(at 229.87 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "WISP_STM32_test_board"
 				(path "/bbf92a7f-e2a8-4909-aabd-f6b15409995d"
@@ -11015,6 +11653,28 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 187.2102 158.4619 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" ""
+			(at 187.2102 158.4619 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part #" ""
 			(at 187.2102 158.4619 0)
 			(hide yes)
 			(show_name no)
@@ -11253,6 +11913,28 @@
 				)
 			)
 		)
+		(property "Digikey Part #" "450-1650-ND"
+			(at 229.87 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part #" ""
+			(at 229.87 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "db35efbf-5e2c-4b66-98fe-d8e7be5e04f2")
 		)
@@ -11325,6 +12007,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 53.34 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "399-C0603C104K5RACTUCT-ND"
+			(at 53.34 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part #" ""
 			(at 53.34 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -11427,6 +12131,28 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 81.28 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "475-LGR971-KN-1CT-ND"
+			(at 81.28 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part #" ""
 			(at 81.28 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -11587,6 +12313,28 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 208.28 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" ""
+			(at 208.28 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part #" ""
 			(at 208.28 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -11984,6 +12732,28 @@
 				)
 			)
 		)
+		(property "Digikey Part #" "399-C0805C104K5RACTUCT-ND"
+			(at 69.85 31.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part #" ""
+			(at 69.85 31.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "57aafd9e-4e9f-4262-8ae5-414f059efe7a")
 		)
@@ -12055,6 +12825,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 85.09 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "1276-6526-1-ND"
+			(at 85.09 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part #" ""
 			(at 85.09 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -12137,6 +12929,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 38.1 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "399-C0603C104K5RACTUCT-ND"
+			(at 38.1 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part #" ""
 			(at 38.1 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -12304,6 +13118,28 @@
 				)
 			)
 		)
+		(property "Digikey Part #" "587-2893-1-ND"
+			(at 77.47 29.21 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part #" ""
+			(at 77.47 29.21 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c1efb556-c436-4801-9150-535044210305")
 		)
@@ -12376,6 +13212,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 95.25 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "399-C0603C104K5RACTUCT-ND"
+			(at 95.25 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part #" ""
 			(at 95.25 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -12615,6 +13473,28 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x10, script generated"
+			(at 234.95 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" ""
+			(at 234.95 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part #" ""
 			(at 234.95 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -12957,6 +13837,28 @@
 			)
 		)
 		(property "Description" "Half duplex RS-485/RS-422, 2.5 Mbps, ±15kV electro-static discharge (ESD) protection, no slew-rate, no low-power shutdown, with receiver/driver enable, 32 receiver drive capability, DIP-8 and SOIC-8"
+			(at 180.34 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "MAX3485CSA+CT-ND"
+			(at 180.34 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part #" ""
 			(at 180.34 86.36 0)
 			(hide yes)
 			(show_name no)
