@@ -9770,7 +9770,7 @@
 				)
 			)
 		)
-		(property "Digikey Part #" "MAX3485CSA+CT-ND"
+		(property "Digikey Part #" "MAX3483CSA+T"
 			(at 243.84 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -13847,7 +13847,7 @@
 				)
 			)
 		)
-		(property "Digikey Part #" "MAX3485CSA+CT-ND"
+		(property "Digikey Part #" "MAX3483CSA+T"
 			(at 180.34 86.36 0)
 			(hide yes)
 			(show_name no)
