@@ -724,7 +724,7 @@
         "uuid": "bbf92a7f-e2a8-4909-aabd-f6b15409995d"
       }
     ],
-    "used_designators": "C7",
+    "used_designators": "#PWR32,C7,R8,SW3",
     "variants": []
   },
   "sheets": [
