@@ -648,7 +648,7 @@
           "show": false
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Digikey Part #",
           "name": "Digikey Part #",
           "show": true
@@ -658,6 +658,12 @@
           "label": "Mouser Part #",
           "name": "Mouser Part #",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "KiLib_Generator",
+          "name": "KiLib_Generator",
+          "show": false
         }
       ],
       "filter_string": "",

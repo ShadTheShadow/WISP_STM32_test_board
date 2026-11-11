@@ -7269,7 +7269,7 @@
 		(uuid "78a1f811-a05c-4c1a-831a-6a8fbe03ad9b")
 	)
 	(label "CTRL_2"
-		(at 207.01 142.24 180)
+		(at 226.06 139.7 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7319,7 +7319,7 @@
 		(uuid "96efaa39-b54d-4fed-8530-c987c73a2625")
 	)
 	(label "CTRL_1"
-		(at 166.37 142.24 180)
+		(at 185.42 139.7 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7470,7 +7470,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "011fbc17-e7b9-4d90-a343-0d1a37efe833")
-		(property "Reference" "R1"
+		(property "Reference" "R2"
 			(at 101.6 134.6199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7547,6 +7547,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 99.06 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "77d5007c-3c71-4fac-9a60-b1583d3c3547")
 		)
@@ -7556,7 +7567,7 @@
 		(instances
 			(project "WISP_STM32_test_board"
 				(path "/bbf92a7f-e2a8-4909-aabd-f6b15409995d"
-					(reference "R1")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -7574,7 +7585,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0991d797-1d6c-42b0-b1e8-d50d2e9e24d7")
-		(property "Reference" "C9"
+		(property "Reference" "C10"
 			(at 115.57 25.3999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7629,6 +7640,28 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 113.03 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "EMK316BB7226ML-T"
+			(at 113.03 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "3f4e134f-5e39-4184-86cc-2a2b369df604")
 		)
@@ -7638,7 +7671,7 @@
 		(instances
 			(project "WISP_STM32_test_board"
 				(path "/bbf92a7f-e2a8-4909-aabd-f6b15409995d"
-					(reference "C9")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -7700,6 +7733,28 @@
 			)
 		)
 		(property "Description" "3A Synchronous Step-Down Voltage Regulator, 4.5-17V Input Voltage, 0.76V to 7V Output Voltage, Eco mode, SOT-23-6"
+			(at 73.66 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "package/gullwing"
+			(at 73.66 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "TPS563201DDCR"
 			(at 73.66 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -7982,7 +8037,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ae51c44-21f4-4a37-ae9e-4c6551708d03")
-		(property "Reference" "J5"
+		(property "Reference" "J4"
 			(at 165.1 30.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8059,6 +8114,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "connector/pin_header_socket"
+			(at 163.83 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6d7e7212-d986-4363-b113-0c00f0102c80")
 		)
@@ -8068,7 +8134,7 @@
 		(instances
 			(project "WISP_STM32_test_board"
 				(path "/bbf92a7f-e2a8-4909-aabd-f6b15409995d"
-					(reference "J5")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -8086,7 +8152,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b1ed1a8-98b3-44b3-9527-9a97170ac37d")
-		(property "Reference" "C7"
+		(property "Reference" "C12"
 			(at 86.36 27.94 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8139,6 +8205,28 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 86.36 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "C0603C104K5RACTU"
+			(at 86.36 33.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "60753138-682d-4991-ba84-6c5d3d5c6339")
 		)
@@ -8148,7 +8236,7 @@
 		(instances
 			(project "WISP_STM32_test_board"
 				(path "/bbf92a7f-e2a8-4909-aabd-f6b15409995d"
-					(reference "C7")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -8165,7 +8253,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1d3a9cdd-328f-4354-bba2-887ee85393b9")
-		(property "Reference" "C12"
+		(property "Reference" "C5"
 			(at 165.862 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8242,6 +8330,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 173.99 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "0377ae9a-7471-4776-9d9a-86c2a6bd3743")
 		)
@@ -8251,7 +8350,7 @@
 		(instances
 			(project "WISP_STM32_test_board"
 				(path "/bbf92a7f-e2a8-4909-aabd-f6b15409995d"
-					(reference "C12")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -8259,7 +8358,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 210.82 142.24 90)
+		(at 229.87 139.7 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8268,8 +8367,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1e18bed3-62c2-4497-8a0b-5c8eb35fe80b")
-		(property "Reference" "R5"
-			(at 210.82 139.954 90)
+		(property "Reference" "R8"
+			(at 229.87 137.414 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8279,7 +8378,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 210.566 142.24 90)
+			(at 229.616 139.7 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8289,7 +8388,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 210.82 144.018 90)
+			(at 229.87 141.478 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8300,7 +8399,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 210.82 142.24 0)
+			(at 229.87 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8311,7 +8410,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 210.82 142.24 0)
+			(at 229.87 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8322,7 +8421,7 @@
 			)
 		)
 		(property "Digikey Part #" "RMCF0805FT10K0CT-ND"
-			(at 210.82 142.24 90)
+			(at 229.87 139.7 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8333,7 +8432,18 @@
 			)
 		)
 		(property "Mouser Part #" ""
-			(at 210.82 142.24 90)
+			(at 229.87 139.7 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 229.87 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8352,7 +8462,7 @@
 		(instances
 			(project "WISP_STM32_test_board"
 				(path "/bbf92a7f-e2a8-4909-aabd-f6b15409995d"
-					(reference "R5")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -8524,7 +8634,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "21637b1b-1cb2-49e1-84f0-f21e56d138d5")
-		(property "Reference" "C13"
+		(property "Reference" "C2"
 			(at 229.362 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8601,6 +8711,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 237.49 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e4e657cf-f546-4d8f-b12b-7b1749d53d97")
 		)
@@ -8610,7 +8731,7 @@
 		(instances
 			(project "WISP_STM32_test_board"
 				(path "/bbf92a7f-e2a8-4909-aabd-f6b15409995d"
-					(reference "C13")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -8718,7 +8839,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 179.07 142.24 0)
+		(at 198.12 139.7 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8729,7 +8850,7 @@
 		(fields_autoplaced yes)
 		(uuid "238ab0e7-62f3-4b14-8a03-67a6ef527a6d")
 		(property "Reference" "SW1"
-			(at 179.07 134.62 0)
+			(at 198.12 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8739,7 +8860,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 179.07 137.16 0)
+			(at 198.12 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8749,7 +8870,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
-			(at 179.07 137.16 0)
+			(at 198.12 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8760,7 +8881,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 137.16 0)
+			(at 198.12 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8771,7 +8892,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 179.07 142.24 0)
+			(at 198.12 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8782,7 +8903,7 @@
 			)
 		)
 		(property "Digikey Part #" "450-1650-ND"
-			(at 179.07 142.24 0)
+			(at 198.12 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8793,7 +8914,7 @@
 			)
 		)
 		(property "Mouser Part #" ""
-			(at 179.07 142.24 0)
+			(at 198.12 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8830,7 +8951,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "24680732-3b21-41d7-bfa7-d20060bc4d3b")
-		(property "Reference" "R2"
+		(property "Reference" "R6"
 			(at 124.46 36.8299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8885,6 +9006,28 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 121.92 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "CRCW060310K0FKEA"
+			(at 121.92 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "043f9580-7e8a-4f14-945c-048be96f8231")
 		)
@@ -8894,7 +9037,7 @@
 		(instances
 			(project "WISP_STM32_test_board"
 				(path "/bbf92a7f-e2a8-4909-aabd-f6b15409995d"
-					(reference "R2")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -8991,7 +9134,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c0fdb1c-9f6e-4e73-a832-f5cb5e1be6fb")
-		(property "Reference" "C14"
+		(property "Reference" "C15"
 			(at 63.5 20.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9046,6 +9189,28 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 60.96 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "C1206C104K5RACTU"
+			(at 60.96 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8b513293-4ae5-4bff-9e99-b667e1bcb39a")
 		)
@@ -9055,7 +9220,7 @@
 		(instances
 			(project "WISP_STM32_test_board"
 				(path "/bbf92a7f-e2a8-4909-aabd-f6b15409995d"
-					(reference "C14")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -9307,7 +9472,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3bbb395d-705d-4c5e-ae7d-164b9db1e3aa")
-		(property "Reference" "J6"
+		(property "Reference" "J3"
 			(at 209.55 78.7399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9384,6 +9549,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "terminal_block/Xinya"
+			(at 208.28 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d6bb3944-d383-4e4f-9d14-fd5964a40faf")
 		)
@@ -9396,7 +9572,7 @@
 		(instances
 			(project "WISP_STM32_test_board"
 				(path "/bbf92a7f-e2a8-4909-aabd-f6b15409995d"
-					(reference "J6")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -9567,6 +9743,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "connector/pin_header_socket"
+			(at 201.93 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "8"
 			(uuid "ddb1cdc6-eb94-4d48-a20c-db919d21e398")
 		)
@@ -9662,6 +9849,17 @@
 		)
 		(property "Description" "Inductor"
 			(at 96.52 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "NRS4018T2R2MDGJ"
+			(at 96.52 24.13 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9931,7 +10129,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "54448ff6-cb7a-4047-bd02-b58b69bf67e4")
-		(property "Reference" "C6"
+		(property "Reference" "C8"
 			(at 86.36 66.0399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10008,6 +10206,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 82.55 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "78421a40-1ebe-4734-830c-d69a13f65113")
 		)
@@ -10017,7 +10226,7 @@
 		(instances
 			(project "WISP_STM32_test_board"
 				(path "/bbf92a7f-e2a8-4909-aabd-f6b15409995d"
-					(reference "C6")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -10034,7 +10243,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "57418ff7-7fbe-4b61-b5b7-472336bbbe4d")
-		(property "Reference" "J7"
+		(property "Reference" "J2"
 			(at 273.05 78.7399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10111,6 +10320,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "terminal_block/Xinya"
+			(at 271.78 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7d5e7970-cf5d-44a2-9dc8-14bab8769800")
 		)
@@ -10123,7 +10343,7 @@
 		(instances
 			(project "WISP_STM32_test_board"
 				(path "/bbf92a7f-e2a8-4909-aabd-f6b15409995d"
-					(reference "J7")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -10474,6 +10694,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "package/gullwing"
+			(at 243.84 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "6"
 			(uuid "5b4ec3cb-eda1-4f68-b3f7-0e0631bf2c11")
 		)
@@ -10519,7 +10750,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "619fbc94-2837-433e-9a10-13a4632ed181")
-		(property "Reference" "D5"
+		(property "Reference" "D2"
 			(at 134.62 25.3364 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10618,6 +10849,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "1=K 2=A"
+			(at 132.08 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "1c7966cb-2c3e-4d23-8b17-0a8e64958fc4")
 		)
@@ -10627,7 +10869,7 @@
 		(instances
 			(project "WISP_STM32_test_board"
 				(path "/bbf92a7f-e2a8-4909-aabd-f6b15409995d"
-					(reference "D5")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -10723,7 +10965,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "70e4c6d1-b942-49bc-a748-c6708e73b418")
-		(property "Reference" "C11"
+		(property "Reference" "C7"
 			(at 27.94 66.0399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10800,6 +11042,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 24.13 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "711378b5-bf92-4d44-862d-c4613e55eac6")
 		)
@@ -10809,7 +11062,7 @@
 		(instances
 			(project "WISP_STM32_test_board"
 				(path "/bbf92a7f-e2a8-4909-aabd-f6b15409995d"
-					(reference "C11")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -10906,7 +11159,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "74db051e-d3e6-4c4a-a766-7e6613e121ed")
-		(property "Reference" "C2"
+		(property "Reference" "C6"
 			(at 111.76 66.0399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10983,6 +11236,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 107.95 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "b0db1e8a-8a27-4a0f-b6b5-f065f491b46b")
 		)
@@ -10992,7 +11256,7 @@
 		(instances
 			(project "WISP_STM32_test_board"
 				(path "/bbf92a7f-e2a8-4909-aabd-f6b15409995d"
-					(reference "C2")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -11000,7 +11264,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 170.18 142.24 90)
+		(at 189.23 139.7 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11009,8 +11273,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7b973e81-d27c-4289-ae6a-23a2a5677171")
-		(property "Reference" "R4"
-			(at 170.18 139.954 90)
+		(property "Reference" "R9"
+			(at 189.23 137.414 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11020,7 +11284,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 169.926 142.24 90)
+			(at 188.976 139.7 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11030,7 +11294,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 170.18 144.018 90)
+			(at 189.23 141.478 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11041,7 +11305,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 142.24 0)
+			(at 189.23 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11052,7 +11316,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 170.18 142.24 0)
+			(at 189.23 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11063,7 +11327,7 @@
 			)
 		)
 		(property "Digikey Part #" "RMCF0805FT10K0CT-ND"
-			(at 170.18 142.24 90)
+			(at 189.23 139.7 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11074,7 +11338,18 @@
 			)
 		)
 		(property "Mouser Part #" ""
-			(at 170.18 142.24 90)
+			(at 189.23 139.7 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 189.23 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11093,7 +11368,7 @@
 		(instances
 			(project "WISP_STM32_test_board"
 				(path "/bbf92a7f-e2a8-4909-aabd-f6b15409995d"
-					(reference "R4")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -11110,7 +11385,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7e9a8603-5492-49bb-ad0f-edba0e0662ec")
-		(property "Reference" "R6"
+		(property "Reference" "R3"
 			(at 192.786 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11187,6 +11462,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 194.31 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1514f0a5-74c5-40d4-9d1d-c269241533d9")
 		)
@@ -11196,7 +11482,7 @@
 		(instances
 			(project "WISP_STM32_test_board"
 				(path "/bbf92a7f-e2a8-4909-aabd-f6b15409995d"
-					(reference "R6")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -11214,7 +11500,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "810887e1-13b3-4f33-9213-8fad821b6e66")
-		(property "Reference" "H1"
+		(property "Reference" "H2"
 			(at 194.31 157.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11291,10 +11577,21 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
+			(at 191.77 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "WISP_STM32_test_board"
 				(path "/bbf92a7f-e2a8-4909-aabd-f6b15409995d"
-					(reference "H1")
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -11390,7 +11687,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87cb3b1d-4d25-46e8-b274-2003b2edce30")
-		(property "Reference" "C5"
+		(property "Reference" "C4"
 			(at 71.12 66.0399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11467,6 +11764,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 67.31 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "9f594b43-b689-4b61-9dd5-73ab85353d77")
 		)
@@ -11476,7 +11784,7 @@
 		(instances
 			(project "WISP_STM32_test_board"
 				(path "/bbf92a7f-e2a8-4909-aabd-f6b15409995d"
-					(reference "C5")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -11573,7 +11881,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e5b51de-e6ba-4234-bebc-f56fe2037780")
-		(property "Reference" "C15"
+		(property "Reference" "C14"
 			(at 50.8 20.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11628,6 +11936,28 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 48.26 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "C1206C106K4RACTU"
+			(at 48.26 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "45212858-c4c0-4dad-b55f-c4ced0e40d48")
 		)
@@ -11637,7 +11967,7 @@
 		(instances
 			(project "WISP_STM32_test_board"
 				(path "/bbf92a7f-e2a8-4909-aabd-f6b15409995d"
-					(reference "C15")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -11655,7 +11985,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "949b227f-ced5-4a60-86f0-c80dc78edd32")
-		(property "Reference" "C10"
+		(property "Reference" "C13"
 			(at 38.1 20.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11710,6 +12040,28 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 35.56 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "EMK107BBJ106MA-T"
+			(at 35.56 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a54a936f-8065-4aed-80ab-b97eca973dae")
 		)
@@ -11719,7 +12071,7 @@
 		(instances
 			(project "WISP_STM32_test_board"
 				(path "/bbf92a7f-e2a8-4909-aabd-f6b15409995d"
-					(reference "C10")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -11736,7 +12088,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9bc759fa-af89-40d9-b379-41586b7b5390")
-		(property "Reference" "R7"
+		(property "Reference" "R1"
 			(at 256.286 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11813,6 +12165,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 257.81 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1d69ab99-0ff9-4e05-b899-b4e540baf640")
 		)
@@ -11822,7 +12185,7 @@
 		(instances
 			(project "WISP_STM32_test_board"
 				(path "/bbf92a7f-e2a8-4909-aabd-f6b15409995d"
-					(reference "R7")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -11908,6 +12271,17 @@
 			)
 		)
 		(property "Mouser Part #" "511-STM32F401RCT6"
+			(at 48.26 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "package/gullwing"
 			(at 48.26 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -12287,7 +12661,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aaa55b4c-6d3e-41d1-8958-09ea9934e79a")
-		(property "Reference" "R9"
+		(property "Reference" "R5"
 			(at 134.62 33.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12364,6 +12738,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 132.08 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "4e8ded88-45bf-4043-a9cd-a0d7e3153533")
 		)
@@ -12373,7 +12758,7 @@
 		(instances
 			(project "WISP_STM32_test_board"
 				(path "/bbf92a7f-e2a8-4909-aabd-f6b15409995d"
-					(reference "R9")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -12391,7 +12776,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac74e4f3-baa5-4c60-9593-8ec863cd457c")
-		(property "Reference" "R3"
+		(property "Reference" "R4"
 			(at 90.17 104.14 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12466,6 +12851,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 90.17 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "09106e14-cfdb-4755-bb70-2c0d4e2facb0")
 		)
@@ -12475,7 +12871,7 @@
 		(instances
 			(project "WISP_STM32_test_board"
 				(path "/bbf92a7f-e2a8-4909-aabd-f6b15409995d"
-					(reference "R3")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -12493,7 +12889,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b89bb169-b3d7-4ef9-96cf-09f7a8e97418")
-		(property "Reference" "H4"
+		(property "Reference" "H1"
 			(at 261.62 157.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12570,10 +12966,21 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
+			(at 259.08 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "WISP_STM32_test_board"
 				(path "/bbf92a7f-e2a8-4909-aabd-f6b15409995d"
-					(reference "H4")
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -12591,7 +12998,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "babf71c4-5e39-4044-871a-cd631987ddb4")
-		(property "Reference" "H2"
+		(property "Reference" "H4"
 			(at 218.9602 157.1918 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12668,10 +13075,21 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
+			(at 216.4202 158.4619 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "WISP_STM32_test_board"
 				(path "/bbf92a7f-e2a8-4909-aabd-f6b15409995d"
-					(reference "H2")
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -12765,7 +13183,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "be0f8f84-9de6-4633-a462-287024a3d6ff")
-		(property "Reference" "SW6"
+		(property "Reference" "SW3"
 			(at 27.94 28.448 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12849,7 +13267,7 @@
 		(instances
 			(project "WISP_STM32_test_board"
 				(path "/bbf92a7f-e2a8-4909-aabd-f6b15409995d"
-					(reference "SW6")
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -12934,7 +13352,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 219.71 142.24 0)
+		(at 238.76 139.7 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12945,7 +13363,7 @@
 		(fields_autoplaced yes)
 		(uuid "c47067e9-346e-47af-938e-b62311c4dd7c")
 		(property "Reference" "SW2"
-			(at 219.71 134.62 0)
+			(at 238.76 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12955,7 +13373,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 219.71 137.16 0)
+			(at 238.76 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12965,7 +13383,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
-			(at 219.71 137.16 0)
+			(at 238.76 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12976,7 +13394,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 219.71 137.16 0)
+			(at 238.76 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12987,7 +13405,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 219.71 142.24 0)
+			(at 238.76 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12998,7 +13416,7 @@
 			)
 		)
 		(property "Digikey Part #" "450-1650-ND"
-			(at 219.71 142.24 0)
+			(at 238.76 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13009,7 +13427,7 @@
 			)
 		)
 		(property "Mouser Part #" ""
-			(at 219.71 142.24 0)
+			(at 238.76 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13046,7 +13464,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c879ad6c-b019-4aa3-9a33-62b92b608123")
-		(property "Reference" "C4"
+		(property "Reference" "C1"
 			(at 57.15 66.0399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13123,6 +13541,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 53.34 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "4af13fe7-a30e-4b00-bbaa-076991514356")
 		)
@@ -13132,7 +13561,7 @@
 		(instances
 			(project "WISP_STM32_test_board"
 				(path "/bbf92a7f-e2a8-4909-aabd-f6b15409995d"
-					(reference "C4")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -13150,7 +13579,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c8d3df43-8824-4c27-9e44-e5ce5c68f39c")
-		(property "Reference" "C8"
+		(property "Reference" "C11"
 			(at 102.87 25.3999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13205,6 +13634,28 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 100.33 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "EMK316BB7226ML-T"
+			(at 100.33 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a00cec33-d021-492c-8c18-97d328e83a87")
 		)
@@ -13214,7 +13665,7 @@
 		(instances
 			(project "WISP_STM32_test_board"
 				(path "/bbf92a7f-e2a8-4909-aabd-f6b15409995d"
-					(reference "C8")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -13319,6 +13770,17 @@
 			)
 		)
 		(property "Mouser Part #" ""
+			(at 81.28 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "1=K 2=A"
 			(at 81.28 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -13511,6 +13973,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
+			(at 237.49 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "WISP_STM32_test_board"
 				(path "/bbf92a7f-e2a8-4909-aabd-f6b15409995d"
@@ -13522,7 +13995,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 224.79 142.24 90)
+		(at 243.84 139.7 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13533,7 +14006,7 @@
 		(fields_autoplaced yes)
 		(uuid "cc1a752d-4746-41c3-8fbe-74fa6dde8bb1")
 		(property "Reference" "#PWR021"
-			(at 231.14 142.24 0)
+			(at 250.19 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13544,7 +14017,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 228.6 142.2399 90)
+			(at 247.65 139.6999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13555,7 +14028,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 224.79 142.24 0)
+			(at 243.84 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13566,7 +14039,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 224.79 142.24 0)
+			(at 243.84 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13577,7 +14050,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 224.79 142.24 0)
+			(at 243.84 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13731,6 +14204,28 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 60.96 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 60.96 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "CRCW060310K0FKEA"
+			(at 60.96 33.02 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14079,6 +14574,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 38.1 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "bbef6c14-f86c-4dfd-a186-1529fdb79f69")
 		)
@@ -14105,7 +14611,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e2631a38-c735-495f-a7ab-c90bc3dcbcc8")
-		(property "Reference" "R11"
+		(property "Reference" "R7"
 			(at 125.222 29.718 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14158,6 +14664,28 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 121.92 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "CRCW060333K2FKEAC"
+			(at 121.92 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "14ce77cd-657c-4ae0-b5a9-f67f75d5fcac")
 		)
@@ -14167,7 +14695,7 @@
 		(instances
 			(project "WISP_STM32_test_board"
 				(path "/bbf92a7f-e2a8-4909-aabd-f6b15409995d"
-					(reference "R11")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -14185,7 +14713,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e37b4cba-3df9-4887-954e-7776e8305615")
-		(property "Reference" "C1"
+		(property "Reference" "C9"
 			(at 99.06 66.0399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14262,6 +14790,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 95.25 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "3befb784-83b5-4343-aa5c-74cf9c6c2779")
 		)
@@ -14271,7 +14810,7 @@
 		(instances
 			(project "WISP_STM32_test_board"
 				(path "/bbf92a7f-e2a8-4909-aabd-f6b15409995d"
-					(reference "C1")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -14602,7 +15141,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef89fdc9-eeac-4918-9982-feb764d369f8")
-		(property "Reference" "J4"
+		(property "Reference" "J5"
 			(at 242.57 29.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14679,6 +15218,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "connector/pin_header_socket"
+			(at 241.3 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "5"
 			(uuid "48feb0d2-9819-41b6-9255-d43f7ec511a0")
 		)
@@ -14712,7 +15262,7 @@
 		(instances
 			(project "WISP_STM32_test_board"
 				(path "/bbf92a7f-e2a8-4909-aabd-f6b15409995d"
-					(reference "J4")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -14877,7 +15427,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 184.15 142.24 90)
+		(at 203.2 139.7 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14888,7 +15438,7 @@
 		(fields_autoplaced yes)
 		(uuid "fa658d44-9817-48f8-81c9-dbd93c96b543")
 		(property "Reference" "#PWR020"
-			(at 190.5 142.24 0)
+			(at 209.55 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14899,7 +15449,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 187.96 142.2399 90)
+			(at 207.01 139.6999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14910,7 +15460,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 184.15 142.24 0)
+			(at 203.2 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14921,7 +15471,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 184.15 142.24 0)
+			(at 203.2 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14932,7 +15482,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 184.15 142.24 0)
+			(at 203.2 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15033,6 +15583,17 @@
 			)
 		)
 		(property "Mouser Part #" ""
+			(at 180.34 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "package/gullwing"
 			(at 180.34 86.36 0)
 			(hide yes)
 			(show_name no)
