@@ -7492,7 +7492,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 97.282 135.89 90)
 			(hide yes)
 			(show_name no)
@@ -8275,7 +8275,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 174.9552 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -8387,7 +8387,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 229.87 141.478 90)
 			(hide yes)
 			(show_name no)
@@ -8656,7 +8656,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 238.4552 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -10772,7 +10772,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 132.08 26.67 90)
 			(hide yes)
 			(show_name no)
@@ -11020,7 +11020,7 @@
 				)
 			)
 		)
-		(property "Digikey Part #" "399-C0603C104K5RACTUCT-ND"
+		(property "Digikey Part #" "EMK107BBJ106MA-T"
 			(at 24.13 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -11293,7 +11293,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 189.23 141.478 90)
 			(hide yes)
 			(show_name no)
@@ -11407,7 +11407,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 194.31 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -12110,7 +12110,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 257.81 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -12683,7 +12683,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 133.858 34.29 90)
 			(hide yes)
 			(show_name no)
@@ -12796,7 +12796,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 90.17 112.268 90)
 			(hide yes)
 			(show_name no)
@@ -13703,7 +13703,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 81.28 110.49 90)
 			(hide yes)
 			(show_name no)
