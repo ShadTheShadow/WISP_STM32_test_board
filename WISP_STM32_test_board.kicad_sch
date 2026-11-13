@@ -7525,7 +7525,7 @@
 				)
 			)
 		)
-		(property "Digikey Part #" "RMCF0805FT10K0CT-ND"
+		(property "Digikey Part #" "CRCW060310K0FKEA"
 			(at 99.06 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -8150,10 +8150,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1b1ed1a8-98b3-44b3-9527-9a97170ac37d")
 		(property "Reference" "C12"
-			(at 86.36 27.94 90)
+			(at 86.614 27.432 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8162,8 +8161,8 @@
 				)
 			)
 		)
-		(property "Value" "0.1uF"
-			(at 86.36 30.48 90)
+		(property "Value" "100nF"
+			(at 87.63 29.972 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8264,7 +8263,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 165.608 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8308,7 +8307,7 @@
 				)
 			)
 		)
-		(property "Digikey Part #" "399-C0805C104K5RACTUCT-ND"
+		(property "Digikey Part #" "C0603C104K5RACTU"
 			(at 173.99 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -8420,7 +8419,7 @@
 				)
 			)
 		)
-		(property "Digikey Part #" "RMCF0805FT10K0CT-ND"
+		(property "Digikey Part #" "CRCW060310K0FKEA"
 			(at 229.87 139.7 90)
 			(hide yes)
 			(show_name no)
@@ -8645,7 +8644,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 229.108 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8689,7 +8688,7 @@
 				)
 			)
 		)
-		(property "Digikey Part #" "399-C0805C104K5RACTUCT-ND"
+		(property "Digikey Part #" "C0603C104K5RACTU"
 			(at 237.49 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -10184,7 +10183,7 @@
 				)
 			)
 		)
-		(property "Digikey Part #" "399-C0603C104K5RACTUCT-ND"
+		(property "Digikey Part #" "C0603C104K5RACTU"
 			(at 82.55 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -10827,7 +10826,7 @@
 				)
 			)
 		)
-		(property "Digikey Part #" "475-LSR976-NR-1CT-ND"
+		(property "Digikey Part #" "LTST-C190KRKT"
 			(at 132.08 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -11214,7 +11213,7 @@
 				)
 			)
 		)
-		(property "Digikey Part #" "399-C0603C104K5RACTUCT-ND"
+		(property "Digikey Part #" "C0603C104K5RACTU"
 			(at 107.95 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -11326,7 +11325,7 @@
 				)
 			)
 		)
-		(property "Digikey Part #" "RMCF0805FT10K0CT-ND"
+		(property "Digikey Part #" "CRCW060310K0FKEA"
 			(at 189.23 139.7 90)
 			(hide yes)
 			(show_name no)
@@ -11440,7 +11439,7 @@
 				)
 			)
 		)
-		(property "Digikey Part #" "738-RMCF0805FT120RCT-ND"
+		(property "Digikey Part #" "ERA-3AEB121V"
 			(at 194.31 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -11742,7 +11741,7 @@
 				)
 			)
 		)
-		(property "Digikey Part #" "399-C0603C104K5RACTUCT-ND"
+		(property "Digikey Part #" "C0603C104K5RACTU"
 			(at 67.31 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -12143,7 +12142,7 @@
 				)
 			)
 		)
-		(property "Digikey Part #" "738-RMCF0805FT120RCT-ND"
+		(property "Digikey Part #" "ERA-3AEB121V"
 			(at 257.81 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -12716,7 +12715,7 @@
 				)
 			)
 		)
-		(property "Digikey Part #" "311-2.20KCRCT-ND"
+		(property "Digikey Part #" "RC0603JR-072K2L"
 			(at 132.08 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -12829,7 +12828,7 @@
 				)
 			)
 		)
-		(property "Digikey Part #" "311-2.20KCRCT-ND"
+		(property "Digikey Part #" "RC0603JR-072K2L"
 			(at 90.17 110.49 90)
 			(hide yes)
 			(show_name no)
@@ -13519,7 +13518,7 @@
 				)
 			)
 		)
-		(property "Digikey Part #" "399-C0603C104K5RACTUCT-ND"
+		(property "Digikey Part #" "C0603C104K5RACTU"
 			(at 53.34 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -13758,7 +13757,7 @@
 				)
 			)
 		)
-		(property "Digikey Part #" "475-LGR971-KN-1CT-ND"
+		(property "Digikey Part #" "LTST-C190GKT"
 			(at 81.28 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -14552,7 +14551,7 @@
 				)
 			)
 		)
-		(property "Digikey Part #" "399-C0603C104K5RACTUCT-ND"
+		(property "Digikey Part #" "C0603C104K5RACTU"
 			(at 38.1 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -14768,7 +14767,7 @@
 				)
 			)
 		)
-		(property "Digikey Part #" "399-C0603C104K5RACTUCT-ND"
+		(property "Digikey Part #" "C0603C104K5RACTU"
 			(at 95.25 67.31 0)
 			(hide yes)
 			(show_name no)
